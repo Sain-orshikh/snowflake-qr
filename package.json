@@ -1,0 +1,6 @@
+{
+  "name": "snowflake-qr", "version": "1.0.0", "private": true,
+  "scripts": { "dev": "next dev --hostname 0.0.0.0", "build": "next build", "typecheck": "tsc --noEmit", "test:qr": "tsx scripts/test-qr.ts" },
+  "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest", "qrcode": "^1.5.4", "jsqr": "^1.4.0", "three": "latest", "lucide-react": "latest" },
+  "devDependencies": { "typescript": "latest", "@types/node": "latest", "@types/react": "latest", "@types/react-dom": "latest", "@types/qrcode": "latest", "@types/three": "latest", "tsx": "latest", "@napi-rs/canvas": "latest", "@playwright/test": "latest" }
+}
